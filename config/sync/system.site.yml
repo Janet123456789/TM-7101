@@ -1,11 +1,11 @@
 uuid: fe75fe57-7b5a-48d8-a5aa-3b1665c42729
 name: 'Drupal ITM Jane'
 mail: vargasvarelajeannette@gmail.com
-slogan: ''
+slogan: papapa
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
