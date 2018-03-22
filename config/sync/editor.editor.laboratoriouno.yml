@@ -1,14 +1,12 @@
-uuid: 7de41455-a3c9-4726-bc3a-6f3bcfe0291e
+uuid: 753f1b41-437d-48ac-a6aa-6cd3e06bb903
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.basic_html
+    - filter.format.laboratoriouno
   module:
     - ckeditor
-_core:
-  default_config_hash: AqlPmO16LvJI4D0Ih6u4GFQIzqr5OnLgAUSjcUGWk2g
-format: basic_html
+format: laboratoriouno
 editor: ckeditor
 settings:
   toolbar:
@@ -21,7 +19,7 @@ settings:
             - Italic
             - Underline
         -
-          name: Linking
+          name: Links
           items:
             - DrupalLink
             - DrupalUnlink
@@ -36,10 +34,6 @@ settings:
             - Blockquote
             - DrupalImage
         -
-          name: 'Block Formatting'
-          items:
-            - Format
-        -
           name: Tools
           items:
             - Source
@@ -49,7 +43,7 @@ settings:
     stylescombo:
       styles: ''
 image_upload:
-  status: true
+  status: false
   scheme: public
   directory: inline-images
   max_size: ''

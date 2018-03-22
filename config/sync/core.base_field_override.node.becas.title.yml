@@ -1,0 +1,18 @@
+uuid: 7ea6d964-a091-46f5-8055-3f265c874acd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.becas
+id: node.becas.title
+field_name: title
+entity_type: node
+bundle: becas
+label: 'Bono Beca'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

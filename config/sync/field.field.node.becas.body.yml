@@ -1,0 +1,22 @@
+uuid: ab9ef1bc-e519-4e75-a50c-18aaef026a66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.becas
+  module:
+    - text
+id: node.becas.body
+field_name: body
+entity_type: node
+bundle: becas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

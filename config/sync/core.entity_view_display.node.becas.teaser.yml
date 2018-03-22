@@ -1,0 +1,28 @@
+uuid: b5b50894-3173-46f1-af30-8e3ec8bbe265
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.becas.body
+    - node.type.becas
+  module:
+    - text
+    - user
+id: node.becas.teaser
+targetEntityType: node
+bundle: becas
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

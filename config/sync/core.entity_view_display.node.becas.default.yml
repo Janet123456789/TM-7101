@@ -1,0 +1,39 @@
+uuid: 0441bf33-f8b2-4b0f-a877-69b5baba811a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.becas.body
+    - field.field.node.becas.field_canada_becas
+    - node.type.becas
+  module:
+    - image
+    - text
+    - user
+id: node.becas.default
+targetEntityType: node
+bundle: becas
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_canada_becas:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
