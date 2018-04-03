@@ -1,0 +1,27 @@
+uuid: 7ec2fe12-eeda-4ed5-ba59-43ccc3571594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descargar_boletin_
+    - node.type.boletin
+  module:
+    - file
+id: node.boletin.field_descargar_boletin_
+field_name: field_descargar_boletin_
+entity_type: node
+bundle: boletin
+label: 'Descargar Boletín '
+description: 'No sé'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,36 @@
+uuid: 06f352c4-461c-44c1-8767-a1325fe04c2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.boletin.body
+    - field.field.node.boletin.field_descargar_boletin_
+    - node.type.boletin
+  module:
+    - file
+    - text
+    - user
+id: node.boletin.default
+targetEntityType: node
+bundle: boletin
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_descargar_boletin_:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

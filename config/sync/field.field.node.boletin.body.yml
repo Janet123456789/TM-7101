@@ -1,0 +1,22 @@
+uuid: 3dfe2207-e75f-4ff9-ac30-57bb7eeddede
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.boletin
+  module:
+    - text
+id: node.boletin.body
+field_name: body
+entity_type: node
+bundle: boletin
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
