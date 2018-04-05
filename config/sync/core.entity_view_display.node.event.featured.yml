@@ -1,52 +1,50 @@
-uuid: 1709c990-2795-48fa-b4fb-04c5471d7bf5
+uuid: 5b34394e-c7e8-4d84-9945-cdc0361f24ce
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.featured
     - field.field.node.event.body
     - field.field.node.event.field_date
     - field.field.node.event.field_image
-    - image.style.medium
     - node.type.event
   module:
     - datetime
     - image
     - text
     - user
-id: node.event.teaser
+id: node.event.featured
 targetEntityType: node
 bundle: event
-mode: teaser
+mode: featured
 content:
   body:
     label: hidden
-    type: text_summary_or_trimmed
-    weight: 2
-    settings:
-      trim_length: 150
+    type: text_default
+    weight: 3
+    settings: {  }
     third_party_settings: {  }
     region: content
   field_date:
-    type: datetime_default
     weight: 1
-    region: content
-    label: hidden
+    label: above
     settings:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
-  field_image:
-    type: image
-    weight: 0
+    type: datetime_default
     region: content
-    label: hidden
+  field_image:
+    weight: 2
+    label: above
     settings:
-      image_style: medium
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
+    type: image
+    region: content
   links:
-    weight: 3
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
