@@ -1,0 +1,22 @@
+uuid: 07b9d865-4c78-47ef-80b4-6100f1f3996f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.plantas
+  module:
+    - text
+id: node.plantas.body
+field_name: body
+entity_type: node
+bundle: plantas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

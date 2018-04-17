@@ -1,0 +1,28 @@
+uuid: 7b57e859-ceca-4946-b579-1d132c5f7412
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.plantas.body
+    - node.type.plantas
+  module:
+    - text
+    - user
+id: node.plantas.teaser
+targetEntityType: node
+bundle: plantas
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

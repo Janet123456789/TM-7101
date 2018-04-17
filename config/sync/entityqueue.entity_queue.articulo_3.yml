@@ -1,0 +1,24 @@
+uuid: 4745a542-7c46-476b-93c0-8b732d548ff0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: articulo_3
+label: 'articulo 3'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse_in_admin: false

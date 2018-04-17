@@ -1,0 +1,10 @@
+uuid: 8e0fb5f2-35f8-406c-9726-c2898078d871
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityqueue
+id: entity_subqueue.featured
+label: featured
+targetEntityType: entity_subqueue
+cache: true
