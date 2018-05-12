@@ -1,0 +1,9 @@
+uuid: 712845d8-79db-4e98-a88c-fb11df6c6fa0
+langcode: en
+status: true
+dependencies: {  }
+name: Estados
+vid: rojo
+description: 'Estados del Derrumbe'
+hierarchy: 0
+weight: 0

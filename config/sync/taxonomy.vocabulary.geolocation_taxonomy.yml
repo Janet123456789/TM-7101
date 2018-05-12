@@ -1,0 +1,9 @@
+uuid: 324e3a61-3924-42a3-8ea8-b80daf125927
+langcode: en
+status: true
+dependencies: {  }
+name: 'Geolocation Taxonomy'
+vid: geolocation_taxonomy
+description: ''
+hierarchy: 0
+weight: 0

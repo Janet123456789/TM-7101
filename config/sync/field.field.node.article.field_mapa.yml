@@ -1,0 +1,35 @@
+uuid: 197ec6c2-07f9-483a-b76b-6d6cdc7d9c8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mapa
+    - node.type.article
+  module:
+    - geolocation
+id: node.article.field_mapa
+field_name: field_mapa
+entity_type: node
+bundle: article
+label: Mapa
+description: 'Es un Content Type typo geolocation '
+required: false
+translatable: false
+default_value:
+  -
+    lat: '51.47879'
+    lng: '-0.010677'
+    lat_sin: null
+    lat_cos: null
+    lng_rad: null
+    data: null
+  -
+    lat: '51.47879 '
+    lng: '-0.010688'
+    lat_sin: null
+    lat_cos: null
+    lng_rad: null
+    data: null
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

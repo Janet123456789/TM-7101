@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.event.body
     - field.field.node.event.field_date
+    - field.field.node.event.field_email
     - field.field.node.event.field_image
     - node.type.event
   module:
     - datetime
+    - drupal_itm_demos
     - image
     - text
     - user
@@ -32,6 +34,13 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_email:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: email_link_field_formatter
     region: content
   field_image:
     weight: 2

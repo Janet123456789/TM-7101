@@ -1,0 +1,29 @@
+uuid: 593fc62d-9d24-4344-bbcb-62c2ddecd520
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geolocation_taxonomy
+    - node.type.disaster_geolocation
+    - taxonomy.vocabulary.geolocation_taxonomy
+id: node.disaster_geolocation.field_geolocation_taxonomy
+field_name: field_geolocation_taxonomy
+entity_type: node
+bundle: disaster_geolocation
+label: 'Geolocation Taxonomy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      geolocation_taxonomy: geolocation_taxonomy
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: geolocation_demo_taxonomy
+field_type: entity_reference

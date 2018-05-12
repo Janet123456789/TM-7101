@@ -1,0 +1,7 @@
+uuid: f5efe61a-56ea-495f-8198-33bc41fe08e4
+langcode: en
+status: false
+dependencies: {  }
+formId: node_boletin_form
+captchaType: default
+label: null

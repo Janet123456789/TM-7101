@@ -1,0 +1,52 @@
+uuid: 4f7e8385-41fb-4aa7-b99e-591868903bb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.disaster_geolocation.body
+    - field.field.node.disaster_geolocation.field_earthquake
+    - field.field.node.disaster_geolocation.field_flood
+    - field.field.node.disaster_geolocation.field_geolocation_taxonomy
+    - node.type.disaster_geolocation
+  module:
+    - geolocation
+    - text
+    - user
+id: node.disaster_geolocation.default
+targetEntityType: node
+bundle: disaster_geolocation
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_earthquake:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_flood:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_geolocation_taxonomy:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

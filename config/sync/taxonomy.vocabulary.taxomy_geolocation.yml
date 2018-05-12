@@ -1,0 +1,9 @@
+uuid: a858eceb-76f2-481e-b35e-a2f30fe77262
+langcode: en
+status: true
+dependencies: {  }
+name: 'taxomy geolocation'
+vid: taxomy_geolocation
+description: 'Niveles del Desastre Natural'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 0e956ae6-eeaa-45f6-8375-5a347934e610
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.disaster_geolocation
+  module:
+    - text
+id: node.disaster_geolocation.body
+field_name: body
+entity_type: node
+bundle: disaster_geolocation
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

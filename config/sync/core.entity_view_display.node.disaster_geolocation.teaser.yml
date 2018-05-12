@@ -1,0 +1,28 @@
+uuid: 054d7554-28bb-4e23-a7fa-e37e217480d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.disaster_geolocation.body
+    - node.type.disaster_geolocation
+  module:
+    - text
+    - user
+id: node.disaster_geolocation.teaser
+targetEntityType: node
+bundle: disaster_geolocation
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

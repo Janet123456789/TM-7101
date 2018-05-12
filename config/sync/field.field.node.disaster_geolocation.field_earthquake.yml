@@ -1,0 +1,21 @@
+uuid: a1b738fc-c208-4407-9ea4-6c486f3d7cfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_earthquake
+    - node.type.disaster_geolocation
+  module:
+    - geolocation
+id: node.disaster_geolocation.field_earthquake
+field_name: field_earthquake
+entity_type: node
+bundle: disaster_geolocation
+label: Earthquake
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

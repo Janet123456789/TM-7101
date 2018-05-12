@@ -1,0 +1,21 @@
+uuid: 24a16ef2-3e3f-4bd8-8774-02fad8c2d356
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_flood
+    - node.type.disaster_geolocation
+  module:
+    - geolocation
+id: node.disaster_geolocation.field_flood
+field_name: field_flood
+entity_type: node
+bundle: disaster_geolocation
+label: Flood
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
