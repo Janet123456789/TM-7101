@@ -1,0 +1,18 @@
+
+drupal_itm_demos.suscribe_form:
+  path: '/drupal_itm_demos/form/suscribe'
+  defaults:
+    _form: '\Drupal\drupal_itm_demos\Form\SuscribeForm'
+    _title: 'SuscribeForm'
+  requirements:
+    _access: 'TRUE'
+  
+
+drupal_itm_demos.subscribe_form:
+  path: '/drupal_itm_demos/form/subscribe'
+  defaults:
+    _form: '\Drupal\drupal_itm_demos\Form\SubscribeForm'
+    _title: 'SubscribeForm'
+  requirements:
+    _access: 'TRUE'
+  

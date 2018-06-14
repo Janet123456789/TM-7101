@@ -1,0 +1,11 @@
+# aqui se declara nuestro tema
+
+# con name, type, description, base theme and core.. con estos cinco atributos ya drupal8 lo renoce como un theme
+name: Demo theme
+type: theme
+description: Only for demo purpose
+base theme: classy
+core: 8.x
+# para importar la lireria de demo_theme_libraries.yml
+libraries:
+ - demo_theme/global-styling

@@ -1,0 +1,6 @@
+# global-styling= hay q importar esa libreria
+# este define el css
+global-styling:
+  css:
+    theme:
+      css/styles.css: {}
