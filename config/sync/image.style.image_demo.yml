@@ -1,0 +1,35 @@
+uuid: 12f51405-9fe5-4696-a389-74b3300555e4
+langcode: en
+status: true
+dependencies: {  }
+name: image_demo
+label: 'image demo'
+effects:
+  08180097-356a-4b74-9a30-ca7184cf8621:
+    uuid: 08180097-356a-4b74-9a30-ca7184cf8621
+    id: image_rotate
+    weight: 1
+    data:
+      degrees: -4
+      bgcolor: '#D1C35C'
+      random: false
+  10c3663c-5ec5-422f-85f6-a969d8c85ac6:
+    uuid: 10c3663c-5ec5-422f-85f6-a969d8c85ac6
+    id: image_resize
+    weight: 2
+    data:
+      width: 50
+      height: 50
+  a992c859-6d4d-4102-a179-19366e9882c9:
+    uuid: a992c859-6d4d-4102-a179-19366e9882c9
+    id: image_crop
+    weight: 3
+    data:
+      width: 100
+      height: 100
+      anchor: right-bottom
+  777b8217-6c5a-4922-a8c0-f97095606d08:
+    uuid: 777b8217-6c5a-4922-a8c0-f97095606d08
+    id: image_desaturate
+    weight: 4
+    data: {  }

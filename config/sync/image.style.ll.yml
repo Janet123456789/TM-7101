@@ -1,0 +1,35 @@
+uuid: e45697e1-926c-403e-a24a-459d7fe84c24
+langcode: en
+status: true
+dependencies: {  }
+name: ll
+label: ll
+effects:
+  cecbd27c-612d-4b6d-acaf-c1e5de2212f1:
+    uuid: cecbd27c-612d-4b6d-acaf-c1e5de2212f1
+    id: image_desaturate
+    weight: 1
+    data: {  }
+  39110ef4-a5fb-4a77-8838-dab34631377f:
+    uuid: 39110ef4-a5fb-4a77-8838-dab34631377f
+    id: image_rotate
+    weight: 2
+    data:
+      degrees: 7
+      bgcolor: '#0431B4'
+      random: false
+  da687eed-3533-4947-af4e-b97d9f9fb216:
+    uuid: da687eed-3533-4947-af4e-b97d9f9fb216
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 150
+      height: 150
+  ab2a165a-7d91-494a-a709-b4a7b9e1e3cd:
+    uuid: ab2a165a-7d91-494a-a709-b4a7b9e1e3cd
+    id: image_scale
+    weight: 4
+    data:
+      width: 100
+      height: 60
+      upscale: false

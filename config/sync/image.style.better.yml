@@ -1,0 +1,14 @@
+uuid: 3768c100-7c24-4c41-bf7b-60a77a707284
+langcode: en
+status: true
+dependencies: {  }
+name: better
+label: better
+effects:
+  50e332b5-6dc8-4373-8ccc-9cb68f62b2f9:
+    uuid: 50e332b5-6dc8-4373-8ccc-9cb68f62b2f9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150

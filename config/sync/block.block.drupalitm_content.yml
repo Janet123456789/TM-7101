@@ -1,0 +1,22 @@
+uuid: 6c04b6d4-1d79-401e-bea8-e3af55c70f9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalitm
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: drupalitm_content
+theme: drupalitm
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

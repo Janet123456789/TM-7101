@@ -1,0 +1,7 @@
+uuid: 891e299a-b94e-4347-95a2-c1b355236cc1
+langcode: en
+status: true
+dependencies: {  }
+name: solo_ver
+label: 'solo ver'
+effects: {  }

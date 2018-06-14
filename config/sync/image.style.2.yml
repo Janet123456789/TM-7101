@@ -1,0 +1,14 @@
+uuid: f55b8980-9b5a-4627-8f40-167e5d4fac00
+langcode: en
+status: true
+dependencies: {  }
+name: '2'
+label: '2'
+effects:
+  fcd7075b-4b9c-4495-b86c-3fa29b05f18c:
+    uuid: fcd7075b-4b9c-4495-b86c-3fa29b05f18c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 200

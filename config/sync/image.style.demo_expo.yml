@@ -1,0 +1,27 @@
+uuid: b5780a56-71f6-42bc-bbdc-097b4b78fc9f
+langcode: en
+status: true
+dependencies: {  }
+name: demo_expo
+label: 'demo expo'
+effects:
+  bd783d82-f7ce-492b-acc0-4feb7d111b61:
+    uuid: bd783d82-f7ce-492b-acc0-4feb7d111b61
+    id: image_desaturate
+    weight: 1
+    data: {  }
+  1ee59eed-0eae-4a07-b18a-14e3997db8ad:
+    uuid: 1ee59eed-0eae-4a07-b18a-14e3997db8ad
+    id: image_resize
+    weight: 2
+    data:
+      width: 50
+      height: 50
+  8ecb922b-6b6e-4544-9d2c-f6fe5505ce02:
+    uuid: 8ecb922b-6b6e-4544-9d2c-f6fe5505ce02
+    id: image_rotate
+    weight: 3
+    data:
+      degrees: 14
+      bgcolor: '#0431B4'
+      random: false

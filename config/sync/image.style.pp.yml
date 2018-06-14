@@ -1,0 +1,15 @@
+uuid: ac8f901d-17fe-479a-bc97-fc0f20cc6fa0
+langcode: en
+status: true
+dependencies: {  }
+name: pp
+label: pp
+effects:
+  32c97e93-459c-4ee0-9c8b-9b590798dd8b:
+    uuid: 32c97e93-459c-4ee0-9c8b-9b590798dd8b
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 90
+      upscale: false

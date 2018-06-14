@@ -1,0 +1,29 @@
+uuid: 586f6286-4250-4e67-8fb1-544836938bcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.geolocation-demo
+  enforced:
+    module:
+      - geolocation_demo
+  module:
+    - system
+  theme:
+    - demo_theme
+_core:
+  default_config_hash: F-7kCmJ82VSkuvhBmciDYiV3ArjbQKFXKZbYDXZa7aY
+id: demo_theme_geolocationdemo
+theme: demo_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:geolocation-demo'
+settings:
+  id: 'system_menu_block:geolocation-demo'
+  label: 'Geolocation Demo'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

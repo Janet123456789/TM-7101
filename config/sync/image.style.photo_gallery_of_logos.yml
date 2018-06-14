@@ -1,0 +1,14 @@
+uuid: b34ee745-8691-4e79-895e-0e172726a0ec
+langcode: en
+status: true
+dependencies: {  }
+name: photo_gallery_of_logos
+label: 'photo gallery of logos'
+effects:
+  88bbba28-02b3-4035-8a1f-8e4f3784ee62:
+    uuid: 88bbba28-02b3-4035-8a1f-8e4f3784ee62
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300

@@ -1,0 +1,22 @@
+uuid: f7198734-3a8e-49d4-9d57-ff2c4c868abb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalitm
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: drupalitm_breadcrumbs
+theme: drupalitm
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: c56edbc5-207d-4f78-aec6-f4417472f07e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.geolocation-demo
+  enforced:
+    module:
+      - geolocation_demo
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+_core:
+  default_config_hash: F-7kCmJ82VSkuvhBmciDYiV3ArjbQKFXKZbYDXZa7aY
+id: bootstrap_barrio_geolocationdemo
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:geolocation-demo'
+settings:
+  id: 'system_menu_block:geolocation-demo'
+  label: 'Geolocation Demo'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
